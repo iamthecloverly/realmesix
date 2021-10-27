@@ -1,0 +1,4 @@
+.vscode
+.nomedia
+*.log
+__pycache__

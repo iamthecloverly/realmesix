@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script>
+    if (!window.location.toString().includes("https://")) {
+      window.location = "https://realmesix.glitch.me" + window.location.pathname
+    }
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://realmesix.glitch.me/sources/style.css" rel="stylesheet">
+  <link href="https://realmesix.glitch.me/sources/content.css" rel="stylesheet">
+  <link rel="manifest" href="https://realmesix.glitch.me/sources/favicon/site.webmanifest">
+  <meta name="msapplication-TileColor" content="#ea4335">
+  <meta name="msapplication-config" content="https://realmesix.glitch.me/sources/favicon/browserconfig.xml">
+  {%block head%}{%endblock%}
+  <title>{%block title%}{%endblock%}</title>
+</head>
+
+{%block body%}{%endblock%}
+
+</html>
